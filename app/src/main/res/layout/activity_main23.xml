@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:columnCount="2"
+>
+
+    GridLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity3"
+    android:columnCount="2"
+    >
+    <TextView
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="2 *5 ?"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="#FF0000 "
+    />
+
+    <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="11"
+            android:textSize="30dp"
+            android:onClick="falseAnswer"
+            android:textColor="#0000FF "/>
+    <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="12"
+            android:textSize="30dp"
+            android:onClick="falseAnswer"
+            android:textColor="#0000FF "/>
+
+    <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="10"
+            android:textSize="30dp"
+            android:onClick="goodAnswer"
+            android:textColor="#0000FF "/>
+    <Button
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:text="5"
+            android:textSize="30dp"
+            android:onClick="falseAnswer"
+            android:textColor="#0000FF "/>
+
+</GridLayout>
+
